@@ -5,7 +5,7 @@ def line(customer_list)
   elsif customer_list.length > 0
     counter = 1
     customer_list.each do |customers|
-      the_deli_line << "The line is currently: #{counter}."
+      "The line is currently: #{counter}."
       counter += 1
     end
   end
