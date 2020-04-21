@@ -14,5 +14,10 @@ def line(customer_list)
 end
 
 def take_a_number(array, customer)
-  
+  line = []
+  if array.length > 0
+    array.each do |name|
+      line.push("#{name}")
+    end
+    line
 end
