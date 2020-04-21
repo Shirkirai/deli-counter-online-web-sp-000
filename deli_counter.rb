@@ -19,6 +19,6 @@ def take_a_number(array, customer)
     array.each do |name|
       line.push("#{name}")
     end
-    line
+    line.sort
   end
 end
