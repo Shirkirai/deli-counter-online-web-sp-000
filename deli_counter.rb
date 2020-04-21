@@ -20,4 +20,5 @@ def take_a_number(array, customer)
       line.push("#{name}")
     end
     line
+  end
 end
