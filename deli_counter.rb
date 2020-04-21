@@ -1,5 +1,14 @@
 # Write your code here.
 def line(customer_list)
-  if customer_list == []
-  puts "The line is currently empty."
+  counter = 1
+  customer_list.each do |customers|
+    case customer_list
+    when []
+      puts "The line is currently empty."
+    end
+
+    if customer_list == []
+      puts "The line is currently empty."
+    else
+      puts "The line is currently"
 end
