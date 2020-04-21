@@ -19,6 +19,7 @@ def take_a_number(array, customer)
     counter = 1
     array.each do |name|
       line.push("#{name}")
+      counter += 1
     end
     puts "Welcome, #{name}. You are number #{number} in line."
   else
