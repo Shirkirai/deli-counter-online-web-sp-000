@@ -7,5 +7,7 @@ def line(customer_list)
   case customer_list
   when []
     puts "The line is currently empty."
+  when []
+    customer_list.push("#{counter}. #{customers}")
   end
 end
