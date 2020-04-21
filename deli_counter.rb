@@ -4,3 +4,6 @@ def line(customer_list)
     case customers
     when customers =[]
       puts "The line is currently empty."
+    end
+  endend
+end
