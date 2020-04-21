@@ -21,3 +21,5 @@ def line(customer_list)
     customer_list.each do |customers|
       the_list.shift("#{counter}. #{customers}")
       counter += 1
+    end
+    puts "The line is currently: #{the_list}"
