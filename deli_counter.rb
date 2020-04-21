@@ -14,15 +14,4 @@ def line(customer_list)
 end
 
 def take_a_number(array, customer)
-  line = []
-  if array.length > 0
-    counter = 1
-    array.each do |name|
-      line.push("#{name}")
-      counter += 1
-    end
-    puts "Welcome, #{name}. You are number #{number} in line."
-  else
-    puts "Welcome, #{customer}. You are number 1 in line."
-  end
-end
+  array.push("customer")
