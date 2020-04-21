@@ -7,7 +7,7 @@ def line(customer_list)
     customer_list.each do |customers|
       puts "The line is currently: #{counter}."
       counter += 1
-      
+
     end
   end
 end
