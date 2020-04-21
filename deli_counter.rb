@@ -5,7 +5,7 @@ def line(customer_list)
   end
   counter += 1
   case customer_list
-  when []
-    puts "The line is currently empty." 
+  when customer_list.length = 0
+    puts "The line is currently empty."
   end
 end
