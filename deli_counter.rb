@@ -23,6 +23,6 @@ def take_a_number(array, customer)
     end
     puts "Welcome, #{name}. You are number #{number} in line."
   else
-    puts "Welcome, #{name}. You are number #{number} in line."
+    puts "Welcome, #{customer}. You are number #{number} in line."
   end
 end
