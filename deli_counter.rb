@@ -6,9 +6,6 @@ def line(customer_list)
   counter += 1
   case customer_list
   when []
-    puts "The line is currently empty."
-  when []
-    customer_list.push("#{counter}. #{customers}"
-    puts "The line is currently: new_list"
+    puts "The line is currently empty." 
   end
 end
