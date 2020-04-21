@@ -6,9 +6,4 @@ def line(customer_list)
     when []
       puts "The line is currently empty."
     end
-
-    if customer_list == []
-      puts "The line is currently empty."
-    else
-      puts "The line is currently"
 end
