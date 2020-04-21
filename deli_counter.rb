@@ -6,4 +6,6 @@ def line(customer_list)
       when []
         puts "The line is currently empty."
       end
+    end
+  end
 end
