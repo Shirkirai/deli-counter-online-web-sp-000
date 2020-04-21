@@ -22,6 +22,5 @@ def take_a_number(array, customer)
   else
     "#{customer}"
   end
-    line.sort
-  end
+  line.sort
 end
