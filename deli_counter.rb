@@ -16,6 +16,7 @@ end
 def take_a_number(array, customer)
   line = []
   if array.length > 0
+    counter = 1
     array.each do |name|
       line.push("#{name}")
     end
