@@ -14,3 +14,4 @@ def line(customer_list)
 end
 
 def take_a_number()
+end
