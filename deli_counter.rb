@@ -6,7 +6,7 @@ def line(customer_list)
     the_deli_line = []
     counter = 1
     customer_list.each do |customers|
-      the_deli_line.shovel("The line is currently: #{counter}.")
+      the_deli_line << "The line is currently: #{counter}."
       counter += 1
       the_deli_line << "#{customers}"
     end
