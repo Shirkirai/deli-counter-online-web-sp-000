@@ -18,4 +18,5 @@ def take_a_number(array, customer)
   puts "Welcome, #{customer}. You are number #{array.length} in line."
 end
 
-def now_servingend
+def now_serving
+end
