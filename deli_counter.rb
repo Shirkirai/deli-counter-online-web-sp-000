@@ -23,7 +23,7 @@ def take_a_number(array, customer)
     end
     puts "Welcome, #{name}. You are number #{number} in line."
   else
-    puts customer
+    puts "Welcome, #{name}. You are number #{number} in line."
   end
   line.sort
 end
