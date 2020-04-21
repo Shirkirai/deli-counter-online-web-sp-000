@@ -8,7 +8,6 @@ def line(customer_list)
     customer_list.each do |customers|
       the_deli_line << "The line is currently: #{counter}."
       counter += 1
-      the_deli_line << "#{customers}"
     end
   end
 end
