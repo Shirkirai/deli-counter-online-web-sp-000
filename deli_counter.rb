@@ -25,5 +25,4 @@ def take_a_number(array, customer)
   else
     puts "Welcome, #{name}. You are number #{number} in line."
   end
-  line.sort
 end
