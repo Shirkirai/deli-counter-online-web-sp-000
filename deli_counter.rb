@@ -8,7 +8,7 @@ def line(customer_list)
   when []
     puts "The line is currently empty."
   when []
-    customer_list.push("#{counter}. #{customers}") = new_list
+    customer_list.push("#{counter}. #{customers}""
     puts "The line is currently: new_list"
   end
 end
