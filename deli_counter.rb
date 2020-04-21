@@ -7,7 +7,7 @@ def line(customer_list)
       the_list.push("#{counter}.to_i. #{customers}")
       counter += 1
     end
-    puts "The line is currently: #{the_list}"
+    puts "The line is currently: #{the_list.join(" ")}"
   else
     puts "The line is currently empty."
   end
