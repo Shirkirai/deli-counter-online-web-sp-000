@@ -20,7 +20,7 @@ def take_a_number(array, customer)
       line.push("#{name}")
     end
   else
-    put customer
+    puts customer
   end
   line.sort
 end
