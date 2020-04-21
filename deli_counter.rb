@@ -5,5 +5,5 @@ def line(customer_list)
     when customers =[]
       puts "The line is currently empty."
     end
-  endend
+  end
 end
