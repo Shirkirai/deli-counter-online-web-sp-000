@@ -20,3 +20,4 @@ def line(customer_list)
     counter = 1
     customer_list.each do |customers|
       the_list.shift("#{counter}. #{customers}")
+      counter += 1
