@@ -19,7 +19,7 @@ def take_a_number(array, customer)
 end
 
 def now_serving(array)
-  if
+  if array >= 1
   else
     puts "There is nobody waiting to be served!"
   end
